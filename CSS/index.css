@@ -1,0 +1,210 @@
+:root {
+    --corDestaque: #7F339A;
+    --corFundo: #170A1C;
+    --corTercearia: #52365C;
+    --corVerde: #2E8B57;
+    --corBrancoPerola: #F0E6FF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body {
+    background-color: #170A1C;
+}
+
+.logo {
+    font-size: 1.2rem;
+}
+
+.logo .mesoName {
+    color: #2E8B57;
+}
+
+.logo .mindsName {
+    color: #F0E6FF;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 1vh 1vh;
+    padding: 0 20px;
+}
+
+nav>div:first-child {
+    margin-right: auto;
+}
+
+nav>a {
+    margin: 0 20px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.loginButton {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+    transition: all 0.3s ease;
+    background-color: transparent;
+
+}
+
+.loginButton>a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 7px 7px;
+    background-color: var(--corDestaque);
+    box-shadow: 1px 1px 5px 1px black;
+    border-radius: 10px;
+}
+
+.loginButton>a:first-child {
+    background-color: var(--corTercearia);
+}
+
+.loginButton>a:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.ComeceAgoraArea {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 3.5rem;
+}
+
+.ComeceAgoraArea h1 {
+    color: var(--corBrancoPerola);
+    margin-bottom: 1.5rem;
+}
+
+.ComeceAgoraArea a {
+    padding: 10px;
+    background-color: var(--corDestaque);
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: large;
+    box-shadow: 1px 1px 5px 1px black;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.ComeceAgoraArea a:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.bannerArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.questoesContainer {
+    display: flex;
+    flex-direction: column; 
+    padding: 0 3vh;
+    margin-bottom: 3vh;
+}
+
+.questoesContainer h2 {
+    text-align: left; 
+    margin: 3vh 3vh 1.5vh 3vh; 
+    color: var(--corBrancoPerola)
+}
+
+.questoesContent {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+}
+.questContArea {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    width: 15%; 
+}
+
+.questContArea a{
+    background-color: var(--corTercearia);
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: large;
+    box-shadow: 1px 1px 5px 1px black;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.questEnemeArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 15px;
+    width: 50%; 
+}
+
+.questEnemeArea a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--corVerde);
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px black;
+    width: 80%;
+    height: 6em;
+    padding: 5px;
+}
+
+.CadasAgoraArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    background-color: var(--corBrancoPerola);
+    border-radius: 20px 20px 0 0;
+    height: 50vh;
+}
+
+.CadasAgoraArea h1{
+    
+    color: var(--corVerde);
+    margin-bottom: 0.5em;
+    margin-top: 2.5em;
+
+}
+
+.CadasAgoraArea a{
+    background-color: var(--corDestaque);
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px black;
+    width: fit-content;
+    padding: 8px;
+    margin-top: 2.5em;
+    justify-content:  center;
+    font-size: larger;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
