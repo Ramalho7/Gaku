@@ -65,6 +65,8 @@ body {
 
 .profArea h1 {
     margin-bottom: 4.5vh;
+    color: var(--corBrancoPerola);
+    font-size: 2em;
 }
 
 .profImgsContainer {
