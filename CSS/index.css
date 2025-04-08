@@ -16,65 +16,6 @@ body {
     background-color: #170A1C;
 }
 
-.logo {
-    font-size: 1.2rem;
-}
-
-.logo .mesoName {
-    color: #2E8B57;
-}
-
-.logo .mindsName {
-    color: #F0E6FF;
-}
-
-nav {
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    margin: 1vh 1vh;
-    padding: 0 20px;
-}
-
-nav>div:first-child {
-    margin-right: auto;
-}
-
-nav>a {
-    margin: 0 20px;
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: white;
-}
-
-.loginButton {
-    margin-left: auto;
-    display: flex;
-    gap: 10px;
-    transition: all 0.3s ease;
-    background-color: transparent;
-
-}
-
-.loginButton>a {
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-    padding: 7px 7px;
-    background-color: var(--corDestaque);
-    box-shadow: 1px 1px 5px 1px black;
-    border-radius: 10px;
-}
-
-.loginButton>a:first-child {
-    background-color: var(--corTercearia);
-}
-
-.loginButton>a:hover {
-    opacity: 0.9;
-    transform: translateY(-2px);
-}
-
 .ComeceAgoraArea {
     display: flex;
     flex-direction: column;
@@ -105,39 +46,70 @@ nav>a {
     transform: translateY(-2px);
 }
 
-.bannerArea{
+.bannerArea {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
+}
+
+.profArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+    flex-direction: column;
+}
+
+.profArea h1 {
+    margin-bottom: 4.5vh;
+}
+
+.profImgsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 14vh;
+}
+
+.profImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: var(--corBrancoPerola);
+
 }
 
 .questoesContainer {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     padding: 0 3vh;
-    margin-bottom: 3vh;
+    margin-bottom: 5vh;
 }
 
 .questoesContainer h2 {
-    text-align: left; 
-    margin: 3vh 3vh 1.5vh 3vh; 
+    text-align: left;
+    margin: 3vh 3vh 1.5vh 3vh;
     color: var(--corBrancoPerola)
 }
 
 .questoesContent {
     display: flex;
-    justify-content: space-between; 
-    gap: 20px; 
-}
-.questContArea {
-    display: flex;
-    flex-direction: column; 
-    gap: 10px;
-    width: 15%; 
+    justify-content: space-between;
+    gap: 20px;
 }
 
-.questContArea a{
+.questContArea {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 15%;
+}
+
+.questContArea a {
     background-color: var(--corTercearia);
     text-decoration: none;
     color: white;
@@ -151,9 +123,9 @@ nav>a {
 
 .questEnemeArea {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
     gap: 15px;
-    width: 50%; 
+    width: 50%;
 }
 
 .questEnemeArea a {
@@ -170,26 +142,26 @@ nav>a {
     padding: 5px;
 }
 
-.CadasAgoraArea{
+.CadasAgoraArea {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
     align-items: center;
     background-color: var(--corBrancoPerola);
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px;
     height: 50vh;
 }
 
-.CadasAgoraArea h1{
-    
+.CadasAgoraArea h1 {
+
     color: var(--corVerde);
     margin-bottom: 0.5em;
     margin-top: 2.5em;
 
 }
 
-.CadasAgoraArea a{
+.CadasAgoraArea a {
     background-color: var(--corDestaque);
     text-decoration: none;
     color: white;
@@ -198,13 +170,6 @@ nav>a {
     width: fit-content;
     padding: 8px;
     margin-top: 2.5em;
-    justify-content:  center;
-    font-size: larger;
-}
-
-footer{
-    display: flex;
-    text-align: center;
-    align-items: center;
     justify-content: center;
+    font-size: larger;
 }
