@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>MesoMinds</title>
     <link rel="stylesheet" type="text/css" href="../css/index.css">
     <link rel="stylesheet" type="text/css" href="../component/componentCSS/footer.css">
-    <link rel="stylesheet" type="text/css" href="../component/componentCSS/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../component/componentCSS/navbarIndex.css">
 </head>
 
 <body>
-    <?php include '../component/navbar.php'; ?>
+    <?php include '../component/navbarIndex.php'; ?>
 
     <div class="ComeceAgoraArea">
         <h1>Comece a aprender matemática agora! Grátis!</h1>

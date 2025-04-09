@@ -8,11 +8,9 @@
             </a>
         </div>
         <a href="#">Conteúdos</a>
-        <a href="#">Questões</a>
+        <a href="..\views\questoes.php">Questões</a>
         <a href="#">Simulado</a>
-        <div class="loginButton">
-            <a href="#">Entrar</a>
-            <a href="#">Registrar-se</a>
+        <div class="espacoVazio">
         </div>
     </nav>
 </header>

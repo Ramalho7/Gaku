@@ -1,0 +1,81 @@
+:root {
+    --corDestaque: #7F339A;
+    --corFundo: #170A1C;
+    --corTercearia: #52365C;
+    --corVerde: #2E8B57;
+    --corBrancoPerola: #F0E6FF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body {
+    background-color: #170A1C;
+}
+
+h1{
+    color: var(--corBrancoPerola);
+    margin-left: 3vh;
+    margin-bottom: 2vh;
+    margin-top: 4vh;
+}
+
+.questContainer{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: left;
+    flex-direction: column;
+    color: var(--corBrancoPerola);
+}
+
+.questContainer h2{
+    margin-left: 3vh;
+    margin-bottom: 3vh;
+    margin-top: 4vh;
+}
+
+.cardQuestoesContainer{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: left;
+    gap: 45px;
+    margin-left: 2em;
+}
+
+.cardQuestoesAssuntoSimples,
+.cardQuestoesAssuntoEnem {
+    max-width: 45%; 
+    min-width: 300px; 
+    height: fit-content;
+    border-radius: 20px;
+    background-color: var(--corBrancoPerola);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.cardQuestoesAssuntoSimples h3,
+.cardQuestoesAssuntoEnem h3{
+    text-align: center;
+    color: var(--corVerde);
+    margin: 20px 0;
+}
+
+.cardQuestoesAssuntoSimples a,
+.cardQuestoesAssuntoEnem a{
+    text-decoration: none;
+    font-size: larger;
+    color: var(--corFundo);
+    padding: 15px;
+}
+
+.cardQuestoesAssuntoSimples a:hover,
+.cardQuestoesAssuntoEnem a:hover{
+    color: var(--corDestaque);
+}
+
