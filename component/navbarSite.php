@@ -1,7 +1,7 @@
 <header>
     <nav>
         <div class="logo">
-            <a href="#">
+            <a href="../views/index.php">
                 <span>LOGO</span> 
                 <span class="mesoName">Meso</span>
                 <span class="mindsName">Minds</span>

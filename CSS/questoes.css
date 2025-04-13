@@ -4,6 +4,9 @@
     --corTercearia: #52365C;
     --corVerde: #2E8B57;
     --corBrancoPerola: #F0E6FF;
+    --corAzulClaro: #4795E3;
+    --corAzulEscuro: #297FBD;
+    --corRoxoClaro: #845AD7; 
 }
 
 * {
@@ -13,7 +16,7 @@
 }
 
 body {
-    background-color: #170A1C;
+    background-color: var(--corFundo);
 }
 
 h1{

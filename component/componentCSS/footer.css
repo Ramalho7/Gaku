@@ -1,15 +1,7 @@
-:root {
-    --corDestaque: #7F339A;
-    --corFundo: #170A1C;
-    --corTercearia: #52365C;
-    --corVerde: #2E8B57;
-    --corBrancoPerola: #F0E6FF;
-}
-
 * {
     margin: 0;
     padding: 0;
-    border: border-box;
+    box-sizing: border-box
 }
 
 .footerContainer {

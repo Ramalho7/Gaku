@@ -4,16 +4,19 @@
     --corTercearia: #52365C;
     --corVerde: #2E8B57;
     --corBrancoPerola: #F0E6FF;
+    --corAzulClaro: #5995CE;
+    --corAzulEscuro: #297FBD;
+    --corRoxoClaro: #845AD7; 
 }
 
 * {
     margin: 0;
     padding: 0;
-    border: border-box;
+    box-sizing: border-box
 }
 
 body {
-    background-color: #170A1C;
+    background-color: var(--corFundo);
 }
 
 .ComeceAgoraArea {
@@ -30,7 +33,7 @@ body {
 
 .ComeceAgoraArea a {
     padding: 10px;
-    background-color: var(--corDestaque);
+    background-color: var(--corAzulClaro);
     text-decoration: none;
     color: white;
     border-radius: 10px;
@@ -82,7 +85,45 @@ body {
     height: 150px;
     border-radius: 50%;
     background-color: var(--corBrancoPerola);
+    overflow: hidden;
+    position: relative;
+}
 
+.profItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.profName {
+    color: var(--corBrancoPerola);
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 8px 15px;
+    border-radius: 15px;
+    background: var(--corVerde);
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.profImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    position: absolute; 
+    object-position: center center;
+    top: 0;
+    left: 0;
+}
+
+.profImg:nth-child(1) img {
+    position: absolute;
+    top: -2%;
+    left: 5%;
+    object-position: center 30%;
 }
 
 .questoesContainer {
@@ -98,6 +139,13 @@ body {
     color: var(--corBrancoPerola)
 }
 
+.questoesContainer h4 {
+    text-align: left;
+    margin: 1.5vh 3vh;
+    margin-bottom: 4vh;
+    color: var(--corBrancoPerola)
+}
+
 .questoesContent {
     display: flex;
     justify-content: space-between;
@@ -105,22 +153,25 @@ body {
 }
 
 .questContArea {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: 35%;
 }
 
 .questContArea a {
-    background-color: var(--corTercearia);
+    background-color: var(--corAzulClaro);
     text-decoration: none;
     color: white;
     border-radius: 10px;
     font-size: large;
     box-shadow: 1px 1px 5px 1px black;
-    width: fit-content;
+    width: 200px;
     margin: 0 auto;
     padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .questEnemeArea {
@@ -134,7 +185,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--corVerde);
+    background-color: var(--corAzulEscuro);
     text-decoration: none;
     color: white;
     border-radius: 10px;

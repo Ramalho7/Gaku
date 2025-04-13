@@ -27,24 +27,38 @@
             Conheça seus professores!
         </h1>
         <div class="profImgsContainer">
-            <div class="profImg">
+            <div class="profItem">
+                <div class="profImg">
+                    <img src="..\imgs\CLEIDIMENO.png">
+                </div>
+                <span class="profName">Prof. Cleidi</span>
             </div>
-            <div class="profImg">
+            <div class="profItem">
+                <div class="profImg">
+                    <img src="..\imgs\JACKSUMENOR.png">
+                </div>
+                <span class="profName">Prof. Jaskson</span>
             </div>
-            <div class="profImg">
+            <div class="profItem">
+                <div class="profImg">
+                </div>
+                <span class="profName">Em breve!</span>
             </div>
+
         </div>
     </div>
 
     <div class="questoesContainer">
         <h2>Teste seu conhecimento!</h2>
+        <h4>Principais conteúdos ENEM</h4>
         <div class="questoesContent">
             <div class="questContArea">
-                <a href="#">Questões Matemática</a>
-                <a href="#">Questões Matemática</a>
-                <a href="#">Questões Matemática</a>
-                <a href="#">Questões Matemática</a>
-                <a href="#">Questões Matemática</a>
+                <a href="#">Matemática básica</a>
+                <a href="#">Estatística</a>
+                <a href="#">Geometria Espacial</a>
+                <a href="#">Funções</a>
+                <a href="#">Geometria Plana</a>
+                <a href="#">Aritmética</a>
             </div>
             <div class="questEnemeArea">
                 <a href="#">Questões ENEM ANO</a>
